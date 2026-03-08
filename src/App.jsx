@@ -1,28 +1,41 @@
-import ParticleCanvas from "./components/ParticleCanvas";
-import Navbar        from "./components/Navbar";
-import Hero          from "./components/Hero";
-import About         from "./components/About";
-import Projects      from "./components/Projects";
-import Architecture  from "./components/Architecture";
-import Credentials   from "./components/Credentials";
-import Education     from "./components/Education";
-import { CTA, Footer } from "./components/CTA";
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Projects from './components/Projects';
+import Architecture from './components/Architecture';
+import Education from './components/Education';
+import Credentials from './components/Credentials';
+import CTA from './components/CTA';
 
-export default function App() {
+function App() {
   return (
     <>
-      <ParticleCanvas />
       <Navbar />
       <main>
         <Hero />
         <About />
         <Projects />
         <Architecture />
-        <Credentials />
         <Education />
+        <Credentials />
         <CTA />
       </main>
-      <Footer />
+      <footer>
+        <div className="foot-copy">
+          © {new Date().getFullYear()} Bala Subramanian. All rights reserved.
+        </div>
+        <div className="foot-links">
+          <a href="https://github.com/balavj" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a href="mailto:your.email@example.com">Email</a>
+        </div>
+      </footer>
     </>
   );
 }
+
+export default App;

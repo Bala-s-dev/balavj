@@ -18,7 +18,7 @@ const IconDL = () => (
   </svg>
 );
 
-export function CTA() {
+export default function CTA() {
   return (
     <section id="cta" style={{ textAlign: "center" }}>
       <div className="wrap">
