@@ -1,0 +1,159 @@
+export const ProjectSVGs = {
+  1: (
+    <svg viewBox="0 0 400 168" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="168" fill="#0a0e1a"/>
+      <line x1="0" y1="42" x2="400" y2="42" stroke="rgba(99,102,241,.05)" strokeWidth="1"/>
+      <line x1="0" y1="84" x2="400" y2="84" stroke="rgba(99,102,241,.05)" strokeWidth="1"/>
+      <line x1="0" y1="126" x2="400" y2="126" stroke="rgba(99,102,241,.05)" strokeWidth="1"/>
+      <line x1="80" y1="0" x2="80" y2="168" stroke="rgba(99,102,241,.04)" strokeWidth="1"/>
+      <line x1="200" y1="0" x2="200" y2="168" stroke="rgba(99,102,241,.04)" strokeWidth="1"/>
+      <line x1="320" y1="0" x2="320" y2="168" stroke="rgba(99,102,241,.04)" strokeWidth="1"/>
+      <rect x="24" y="28" width="128" height="30" rx="14" fill="rgba(99,102,241,.12)" stroke="rgba(99,102,241,.3)" strokeWidth="1"/>
+      <rect x="34" y="35" width="72" height="7" rx="3.5" fill="rgba(99,102,241,.55)"/>
+      <rect x="34" y="45" width="48" height="4" rx="2" fill="rgba(99,102,241,.25)"/>
+      <rect x="230" y="52" width="120" height="30" rx="14" fill="rgba(34,211,238,.08)" stroke="rgba(34,211,238,.22)" strokeWidth="1"/>
+      <rect x="240" y="59" width="60" height="7" rx="3.5" fill="rgba(34,211,238,.45)"/>
+      <rect x="240" y="69" width="88" height="4" rx="2" fill="rgba(34,211,238,.2)"/>
+      <rect x="24" y="78" width="108" height="30" rx="14" fill="rgba(99,102,241,.12)" stroke="rgba(99,102,241,.3)" strokeWidth="1"/>
+      <rect x="34" y="85" width="82" height="7" rx="3.5" fill="rgba(99,102,241,.55)"/>
+      <rect x="34" y="95" width="42" height="4" rx="2" fill="rgba(99,102,241,.25)"/>
+      <circle cx="200" cy="88" r="26" fill="rgba(99,102,241,.07)" stroke="rgba(99,102,241,.2)" strokeWidth="1.5"/>
+      <rect x="189" y="86" width="22" height="17" rx="4" fill="none" stroke="rgba(99,102,241,.75)" strokeWidth="1.8"/>
+      <path d="M192 86v-4.5a8 8 0 0 1 16 0V86" fill="none" stroke="rgba(99,102,241,.75)" strokeWidth="1.8"/>
+      <circle cx="200" cy="95" r="2.5" fill="rgba(99,102,241,.95)"/>
+      <rect x="14" y="12" width="80" height="17" rx="5" fill="rgba(99,102,241,.15)" stroke="rgba(99,102,241,.3)" strokeWidth="1"/>
+      <text x="54" y="23.5" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="8.5" fontWeight="600" fill="#6366f1">ENCRYPTED</text>
+    </svg>
+  ),
+  2: (
+    <svg viewBox="0 0 400 168" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="168" fill="#0a0e1a"/>
+      <rect x="24" y="108" width="18" height="42" rx="4" fill="rgba(99,102,241,.28)" stroke="rgba(99,102,241,.5)" strokeWidth="1"/>
+      <rect x="50" y="88" width="18" height="62" rx="4" fill="rgba(99,102,241,.42)" stroke="rgba(99,102,241,.6)" strokeWidth="1"/>
+      <rect x="76" y="68" width="18" height="82" rx="4" fill="rgba(99,102,241,.58)" stroke="rgba(99,102,241,.75)" strokeWidth="1"/>
+      <rect x="102" y="50" width="18" height="100" rx="4" fill="rgba(99,102,241,.75)" stroke="rgba(99,102,241,.9)" strokeWidth="1"/>
+      <rect x="128" y="72" width="18" height="78" rx="4" fill="rgba(99,102,241,.5)" stroke="rgba(99,102,241,.7)" strokeWidth="1"/>
+      <polyline points="33,108 59,88 85,68 111,50 137,72" fill="none" stroke="rgba(34,211,238,.7)" strokeWidth="1.5" strokeDasharray="4 3"/>
+      <rect x="200" y="20" width="178" height="132" rx="10" fill="rgba(255,255,255,.02)" stroke="rgba(99,102,241,.18)" strokeWidth="1"/>
+      <rect x="212" y="30" width="100" height="7" rx="3.5" fill="rgba(99,102,241,.45)"/>
+      <circle cx="216" cy="52" r="5" fill="none" stroke="rgba(34,211,238,.45)" strokeWidth="1.5"/>
+      <rect x="228" y="48" width="66" height="5" rx="2.5" fill="rgba(255,255,255,.14)"/>
+      <circle cx="216" cy="69" r="5" fill="rgba(34,211,238,.45)" stroke="rgba(34,211,238,.7)" strokeWidth="1.5"/>
+      <rect x="228" y="65" width="88" height="5" rx="2.5" fill="rgba(255,255,255,.2)"/>
+      <circle cx="216" cy="86" r="5" fill="none" stroke="rgba(99,102,241,.38)" strokeWidth="1.5"/>
+      <rect x="228" y="82" width="52" height="5" rx="2.5" fill="rgba(255,255,255,.1)"/>
+      <circle cx="216" cy="103" r="5" fill="none" stroke="rgba(99,102,241,.38)" strokeWidth="1.5"/>
+      <rect x="228" y="99" width="74" height="5" rx="2.5" fill="rgba(255,255,255,.1)"/>
+      <rect x="300" y="122" width="65" height="12" rx="5" fill="rgba(99,102,241,.5)"/>
+      <text x="332" y="131" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="7" fontWeight="600" fill="#fff">SUBMIT</text>
+      <rect x="14" y="12" width="72" height="17" rx="5" fill="rgba(34,211,238,.08)" stroke="rgba(34,211,238,.25)" strokeWidth="1"/>
+      <text x="50" y="23.5" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="8.5" fontWeight="600" fill="#22d3ee">AI EXAM</text>
+    </svg>
+  ),
+  3: (
+    <svg viewBox="0 0 400 168" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="168" fill="#0a0e1a"/>
+      <line x1="0" y1="84" x2="400" y2="84" stroke="rgba(99,102,241,.06)" strokeWidth="1"/>
+      <rect x="20" y="72" width="7" height="24" rx="3.5" fill="rgba(34,211,238,.4)"/>
+      <rect x="33" y="58" width="7" height="52" rx="3.5" fill="rgba(34,211,238,.65)"/>
+      <rect x="46" y="66" width="7" height="36" rx="3.5" fill="rgba(34,211,238,.45)"/>
+      <rect x="59" y="46" width="7" height="76" rx="3.5" fill="rgba(34,211,238,.85)"/>
+      <rect x="72" y="60" width="7" height="48" rx="3.5" fill="rgba(34,211,238,.55)"/>
+      <rect x="85" y="76" width="7" height="16" rx="3.5" fill="rgba(34,211,238,.32)"/>
+      <rect x="98" y="54" width="7" height="60" rx="3.5" fill="rgba(34,211,238,.72)"/>
+      <rect x="111" y="68" width="7" height="32" rx="3.5" fill="rgba(34,211,238,.42)"/>
+      <rect x="124" y="56" width="7" height="56" rx="3.5" fill="rgba(34,211,238,.68)"/>
+      <rect x="137" y="78" width="7" height="12" rx="3.5" fill="rgba(34,211,238,.28)"/>
+      <rect x="176" y="18" width="208" height="136" rx="10" fill="rgba(255,255,255,.02)" stroke="rgba(167,139,250,.22)" strokeWidth="1"/>
+      <rect x="188" y="28" width="90" height="7" rx="3.5" fill="rgba(167,139,250,.5)"/>
+      <rect x="188" y="54" width="52" height="5" rx="2.5" fill="rgba(255,255,255,.18)"/>
+      <rect x="188" y="64" width="150" height="4" rx="2" fill="rgba(255,255,255,.1)"/>
+      <rect x="188" y="89" width="52" height="5" rx="2.5" fill="rgba(255,255,255,.18)"/>
+      <rect x="188" y="99" width="130" height="4" rx="2" fill="rgba(255,255,255,.1)"/>
+      <circle cx="365" cy="26" r="7" fill="rgba(34,211,238,.15)" stroke="rgba(34,211,238,.55)" strokeWidth="1.5"/>
+      <circle cx="365" cy="26" r="3" fill="#22d3ee"/>
+      <rect x="14" y="12" width="68" height="17" rx="5" fill="rgba(167,139,250,.08)" stroke="rgba(167,139,250,.28)" strokeWidth="1"/>
+      <text x="48" y="23.5" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="8.5" fontWeight="600" fill="#a78bfa">AI VOICE</text>
+    </svg>
+  ),
+  4: (
+    <svg viewBox="0 0 400 168" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="168" fill="#0a0e1a"/>
+      <rect x="22" y="16" width="114" height="140" rx="8" fill="rgba(255,255,255,.02)" stroke="rgba(99,102,241,.18)" strokeWidth="1"/>
+      <rect x="32" y="26" width="72" height="8" rx="4" fill="rgba(99,102,241,.5)"/>
+      <rect x="32" y="42" width="94" height="4" rx="2" fill="rgba(255,255,255,.1)"/>
+      <rect x="32" y="72" width="54" height="6" rx="3" fill="rgba(34,211,238,.4)"/>
+      <rect x="32" y="84" width="94" height="4" rx="2" fill="rgba(255,255,255,.1)"/>
+      <rect x="160" y="22" width="218" height="130" rx="10" fill="rgba(255,255,255,.02)" stroke="rgba(99,102,241,.18)" strokeWidth="1"/>
+      <rect x="172" y="32" width="84" height="6" rx="3" fill="rgba(99,102,241,.45)"/>
+      <rect x="172" y="48" width="52" height="16" rx="5" fill="rgba(239,68,68,.12)" stroke="rgba(239,68,68,.32)" strokeWidth="1"/>
+      <text x="198" y="59" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="7.5" fontWeight="600" fill="rgba(239,68,68,.9)">MISSING</text>
+      <rect x="230" y="48" width="58" height="16" rx="5" fill="rgba(34,211,238,.08)" stroke="rgba(34,211,238,.28)" strokeWidth="1"/>
+      <text x="259" y="59" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="7.5" fontWeight="600" fill="#22d3ee">DOCKER</text>
+      <rect x="172" y="74" width="196" height="4" rx="2" fill="rgba(255,255,255,.1)"/>
+      <rect x="172" y="84" width="160" height="4" rx="2" fill="rgba(255,255,255,.07)"/>
+      <rect x="14" y="12" width="66" height="17" rx="5" fill="rgba(99,102,241,.1)" stroke="rgba(99,102,241,.28)" strokeWidth="1"/>
+      <text x="47" y="23.5" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="8" fontWeight="600" fill="#6366f1">CAREER AI</text>
+    </svg>
+  ),
+  5: (
+    <svg viewBox="0 0 400 168" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="168" fill="#0a0e1a"/>
+      <rect x="14" y="20" width="112" height="132" rx="8" fill="rgba(255,255,255,.015)" stroke="rgba(255,255,255,.055)" strokeWidth="1"/>
+      <rect x="22" y="28" width="62" height="5" rx="2.5" fill="rgba(255,255,255,.18)"/>
+      <rect x="22" y="40" width="96" height="22" rx="5" fill="rgba(99,102,241,.12)" stroke="rgba(99,102,241,.25)" strokeWidth="1"/>
+      <rect x="28" y="46" width="60" height="4" rx="2" fill="rgba(99,102,241,.6)"/>
+      <rect x="144" y="20" width="112" height="132" rx="8" fill="rgba(255,255,255,.015)" stroke="rgba(255,255,255,.055)" strokeWidth="1"/>
+      <rect x="152" y="28" width="62" height="5" rx="2.5" fill="rgba(255,255,255,.18)"/>
+      <rect x="152" y="40" width="96" height="22" rx="5" fill="rgba(34,211,238,.08)" stroke="rgba(34,211,238,.2)" strokeWidth="1"/>
+      <rect x="158" y="46" width="72" height="4" rx="2" fill="rgba(34,211,238,.5)"/>
+      <rect x="274" y="20" width="112" height="132" rx="8" fill="rgba(255,255,255,.015)" stroke="rgba(255,255,255,.055)" strokeWidth="1"/>
+      <rect x="282" y="28" width="62" height="5" rx="2.5" fill="rgba(255,255,255,.18)"/>
+      <rect x="282" y="40" width="96" height="22" rx="5" fill="rgba(167,139,250,.08)" stroke="rgba(167,139,250,.2)" strokeWidth="1"/>
+      <rect x="288" y="46" width="66" height="4" rx="2" fill="rgba(167,139,250,.5)"/>
+      <rect x="14" y="12" width="64" height="17" rx="5" fill="rgba(99,102,241,.1)" stroke="rgba(99,102,241,.28)" strokeWidth="1"/>
+      <text x="46" y="23.5" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="8.5" fontWeight="600" fill="#6366f1">KANBAN</text>
+    </svg>
+  ),
+  6: (
+    <svg viewBox="0 0 400 168" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="168" fill="#0a0e1a"/>
+      <rect x="16" y="22" width="368" height="28" rx="7" fill="rgba(255,255,255,.022)" stroke="rgba(255,255,255,.055)" strokeWidth="1"/>
+      <rect x="26" y="32" width="7" height="8" rx="2" fill="rgba(239,68,68,.75)"/>
+      <rect x="40" y="33" width="84" height="5" rx="2.5" fill="rgba(255,255,255,.28)"/>
+      <rect x="288" y="31" width="56" height="9" rx="4.5" fill="rgba(239,68,68,.12)" stroke="rgba(239,68,68,.38)" strokeWidth="1"/>
+      <text x="316" y="38" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="7.5" fontWeight="600" fill="rgba(239,68,68,.9)">CRITICAL</text>
+      <rect x="16" y="57" width="368" height="28" rx="7" fill="rgba(255,255,255,.018)" stroke="rgba(255,255,255,.045)" strokeWidth="1"/>
+      <rect x="26" y="67" width="7" height="8" rx="2" fill="rgba(251,191,36,.75)"/>
+      <rect x="40" y="68" width="112" height="5" rx="2.5" fill="rgba(255,255,255,.22)"/>
+      <rect x="288" y="66" width="56" height="9" rx="4.5" fill="rgba(251,191,36,.1)" stroke="rgba(251,191,36,.35)" strokeWidth="1"/>
+      <text x="316" y="73" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="7.5" fontWeight="600" fill="rgba(251,191,36,.9)">HIGH</text>
+      <rect x="16" y="92" width="368" height="28" rx="7" fill="rgba(255,255,255,.018)" stroke="rgba(255,255,255,.045)" strokeWidth="1"/>
+      <rect x="26" y="102" width="7" height="8" rx="2" fill="rgba(34,211,238,.75)"/>
+      <rect x="40" y="103" width="98" height="5" rx="2.5" fill="rgba(255,255,255,.18)"/>
+      <rect x="288" y="101" width="56" height="9" rx="4.5" fill="rgba(34,211,238,.08)" stroke="rgba(34,211,238,.28)" strokeWidth="1"/>
+      <text x="316" y="108" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="7.5" fontWeight="600" fill="#22d3ee">MEDIUM</text>
+      <rect x="16" y="130" width="160" height="24" rx="7" fill="rgba(99,102,241,.07)" stroke="rgba(99,102,241,.2)" strokeWidth="1"/>
+      <text x="32" y="144" fontFamily="JetBrains Mono" fontSize="7" fill="#6366f1" fontWeight="600">AI: auto-classifying...</text>
+      <rect x="14" y="12" width="68" height="17" rx="5" fill="rgba(99,102,241,.1)" stroke="rgba(99,102,241,.28)" strokeWidth="1"/>
+      <text x="48" y="23.5" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="8.5" fontWeight="600" fill="#6366f1">SUPPORT</text>
+    </svg>
+  ),
+  7: (
+    <svg viewBox="0 0 400 168" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <rect width="400" height="168" fill="#0a0e1a"/>
+      <rect x="16" y="22" width="172" height="46" rx="8" fill="rgba(255,255,255,.02)" stroke="rgba(34,211,238,.14)" strokeWidth="1"/>
+      <rect x="26" y="31" width="108" height="5" rx="2.5" fill="rgba(34,211,238,.42)"/>
+      <rect x="16" y="76" width="172" height="46" rx="8" fill="rgba(255,255,255,.02)" stroke="rgba(99,102,241,.14)" strokeWidth="1"/>
+      <rect x="26" y="85" width="125" height="5" rx="2.5" fill="rgba(99,102,241,.42)"/>
+      <rect x="204" y="22" width="180" height="140" rx="10" fill="rgba(255,255,255,.02)" stroke="rgba(34,211,238,.18)" strokeWidth="1"/>
+      <rect x="216" y="32" width="84" height="6" rx="3" fill="rgba(34,211,238,.4)"/>
+      <rect x="264" y="57" width="86" height="7" rx="3.5" fill="rgba(34,211,238,.08)" stroke="rgba(34,211,238,.28)" strokeWidth="1"/>
+      <text x="307" y="63" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="7.5" fontWeight="600" fill="#22d3ee">uid = row.uid</text>
+      <rect x="264" y="73" width="86" height="7" rx="3.5" fill="rgba(239,68,68,.08)" stroke="rgba(239,68,68,.24)" strokeWidth="1"/>
+      <text x="307" y="79" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="7.5" fontWeight="600" fill="rgba(239,68,68,.8)">BLOCKED</text>
+      <rect x="14" y="12" width="80" height="17" rx="5" fill="rgba(34,211,238,.07)" stroke="rgba(34,211,238,.22)" strokeWidth="1"/>
+      <text x="54" y="23.5" textAnchor="middle" fontFamily="JetBrains Mono" fontSize="8.5" fontWeight="600" fill="#22d3ee">BOOKMARK</text>
+    </svg>
+  ),
+};
