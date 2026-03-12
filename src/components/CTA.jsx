@@ -20,7 +20,7 @@ const IconDL = () => (
 
 export default function CTA() {
   return (
-    <section id="cta" style={{ textAlign: "center" }}>
+    <section id="cta" style={{ textAlign: 'center' }}>
       <div className="wrap">
         <motion.div
           className="cta-card"
@@ -31,8 +31,15 @@ export default function CTA() {
         >
           <motion.p
             className="eyebrow"
-            style={{ justifyContent: "center", display: "flex", marginBottom: 20 }}
-            variants={fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce}
+            style={{
+              justifyContent: 'center',
+              display: 'flex',
+              marginBottom: 20,
+            }}
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={viewportOnce}
             transition={{ delay: 0.1 }}
           >
             Let's work together
@@ -40,18 +47,27 @@ export default function CTA() {
 
           <motion.h2
             className="cta-h"
-            variants={fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce}
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={viewportOnce}
             transition={{ delay: 0.18 }}
           >
-            Let's Build Intelligent<br /><span className="hi">Systems Together.</span>
+            Let's Build Intelligent
+            <br />
+            <span className="hi">Systems Together.</span>
           </motion.h2>
 
           <motion.p
             className="cta-sub"
-            variants={fadeUp} initial="hidden" whileInView="show" viewport={viewportOnce}
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={viewportOnce}
             transition={{ delay: 0.25 }}
           >
-            Open to founding engineer roles, AI product contracts, and ambitious architecture challenges.
+            Open to founding engineer roles, AI product contracts, and ambitious
+            architecture challenges.
           </motion.p>
 
           <motion.div
@@ -62,21 +78,38 @@ export default function CTA() {
             viewport={viewportOnce}
           >
             {[
-              { href: "mailto:bala@example.com", cls: "btn btn-primary", icon: <IconMail />, label: "Email Me" },
-              { href: "https://github.com",      cls: "btn btn-outline", icon: <IconGH />,   label: "View GitHub",       ext: true },
-              { href: "#",                        cls: "btn btn-outline", icon: <IconDL />,   label: "Download Resume" },
+              {
+                href: 'mailto:bala@example.com',
+                cls: 'btn btn-primary',
+                icon: <IconMail />,
+                label: 'Email Me',
+              },
+              {
+                href: 'https://github.com',
+                cls: 'btn btn-outline',
+                icon: <IconGH />,
+                label: 'View GitHub',
+                ext: true,
+              },
+              {
+                href: 'https://drive.google.com/file/d/1KAHxIo655tJjX9evu91HxCx4qhe6Tb2j/view?usp=sharing',
+                cls: 'btn btn-outline',
+                icon: <IconDL />,
+                label: 'Download Resume',
+              },
             ].map(({ href, cls, icon, label, ext }) => (
               <motion.a
                 key={label}
                 href={href}
                 className={cls}
-                target={ext ? "_blank" : undefined}
-                rel={ext ? "noopener" : undefined}
+                target={ext ? '_blank' : undefined}
+                rel={ext ? 'noopener' : undefined}
                 variants={fadeUp}
                 whileHover={{ scale: 1.04, y: -2 }}
                 whileTap={{ scale: 0.97 }}
               >
-                {icon}{label}
+                {icon}
+                {label}
               </motion.a>
             ))}
           </motion.div>

@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Architecture from './components/Architecture';
-import Education from './components/Education';
+// import Education from './components/Education';
 import Credentials from './components/Credentials';
 import CTA from './components/CTA';
 
@@ -16,7 +16,7 @@ function App() {
         <About />
         <Projects />
         <Architecture />
-        <Education />
+        {/* <Education /> */}
         <Credentials />
         <CTA />
       </main>
